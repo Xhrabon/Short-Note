@@ -1,0 +1,16 @@
+Data Type,Size (in bytes),Range,,,Macro for min value,Macro for max value
+,,,,,,
+int,4,"-2,147,483,648","2,147,483,647",,INT_MIN,INT_MAX
+unsigned int,4,0,"4,294,967,295",,,UINT_MAX
+short int,2,"-32,768","32,767",,SHRT_MIN,SHRT_MAX
+unsigned short int,2,0,"65,535",,0,USHRT_MAX
+long int,4,"-2,147,483,648","2,147,483,647",,LONG_MIN,LONG_MAX
+unsigned long int,4,0,"4,294,967,295",,0,ULONG_MAX
+long long int,8,-9.22337203×10^18,9.223372037×10^18,,LLONG_MIN,LLONG_MAX
+unsigned long long int,8,0,"18,446,744,073,709,500,000",,0,ULLONG_MAX
+char,1,-128,127,,CHAR_MIN,CHAR_MAX
+unsigned char,1,0,255,,0,UCHAR_MAX
+float,4,-3.4×10^38,3.4×10^38,,FLT_MIN,FLT_MAX
+double,8,-1.7×10^308,1.7×10^308,,DBL_MIN,DBL_MAX
+long double,12,-1.1×10^4932,1.1×10^4932,,,
+wchar_t,2 or 4,1 wide character,,,,
